@@ -91,5 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a href="./registration.php" class="btn btn-secondary">Create Account</a>
         </form>
     </div>
+    <p>test</p>
 </body>
 </html>
+
