@@ -1,0 +1,154 @@
+/* General */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-size: large;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+.navbar-nav {
+    margin-left: auto;
+  }  
+
+h7 {
+    font-style: italic;
+}
+
+#buttons {
+    font-size: large;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), url("images/bg-blue.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* disscussion board */
+.question {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.question h2 {
+    margin-top: 0;
+}
+.question p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rating label {
+    margin-right: 10px;
+}
+.rating input[type="radio"] {
+    display: none;
+}
+.rating label:before {
+    content: "\2606";
+    font-size: 20px;
+    color: #ddd;
+}
+.rating input[type="radio"]:checked ~ label:before {
+    content: "\2605";
+    color: #ffcc00;
+}
+
+/* Profile */
+.profile  {
+    margin: auto auto;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Prizes */
+.card.prize {
+    padding: 20px;
+    height: 350px;
+    margin: auto;
+}
+  
+.card img {
+    height: 300px;
+}
+
+/* Leaderboard */
+#leaderboard {
+    margin: auto;
+}
+
+#leaderboard td {
+    padding: 10px;
+    font-size: 200%;
+}
+
+.bi-star, .bi-star-fill {
+    color: gold;
+}
+
+.discussion-post-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
